@@ -1,0 +1,4 @@
+curl --request POST \
+ --header "Content-Type: application/json" \
+ --data '{"jsonrpc": "2.0", "id": 42, "method": "greet", "params": {"name": "Tota"}}' \
+ http://127.0.0.1:8080/json-rpc
